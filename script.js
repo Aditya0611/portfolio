@@ -133,12 +133,12 @@ function highlightActiveNav() {
    TYPEWRITER
 ======================== */
 const phrases = [
-  'Data & AI Engineer',
-  'LLM Application Builder',
-  'RAG & FAISS Specialist',
-  'Python Developer',
-  'Full-Stack Data Engineer',
-  'AI Systems Architect',
+  'Full-Stack HRMS Specialist',
+  'Payroll & Attendance Expert',
+  'Laravel & React Developer',
+  'Leave Management Architect',
+  'React Native Mobile Developer',
+  'Enterprise System Builder',
 ];
 let phraseIndex = 0, charIndex = 0, deleting = false;
 const typeEl = document.getElementById('typewriter');
