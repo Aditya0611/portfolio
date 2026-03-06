@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Aditya Raj – Data & AI Engineer specializing in Python, LLMs, RAG, and scalable data pipelines. Based in Ranchi, India." />
+  <title>Aditya Raj | Data & AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">AR</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg">
+      <canvas id="particles-canvas"></canvas>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="orb orb-4"></div>
+      <div class="grid-overlay"></div>
+      <div class="noise-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Opportunities
+      </div>
+      <h1 class="hero-name">Aditya <span class="gradient-text">Raj</span></h1>
+      <div class="hero-typewriter">
+        <span id="typewriter"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        Data &amp; AI Engineer crafting intelligent, production-ready systems with Python, LLMs, RAG, and real-time data
+        pipelines.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/aditya-raj-3b0169235/" target="_blank" rel="noopener" class="social-chip"
+          id="hero-linkedin">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/Aditya0611" target="_blank" rel="noopener" class="social-chip" id="hero-github">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+          </svg>
+          GitHub
+        </a>
+        <a href="mailto:rajnisharti29@gmail.com" class="social-chip" id="hero-email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+          Email
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label">ABOUT ME</div>
+      <h2 class="section-title">Turning Data Into <span class="gradient-text">Intelligence</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>Data &amp; AI Engineer</strong> passionate about building intelligent, scalable systems that
+            solve real-world problems.
+            With deep expertise in <strong>Python, LLMs, LangChain, and RAG-based architectures</strong>, I bridge the
+            gap between
+            raw data and actionable insights.
+          </p>
+          <p>
+            From designing AI chatbots to engineering cross-platform web scraping pipelines and production-ready
+            dashboards,
+            I focus on creating solutions that are both technically robust and impactful at scale.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Live Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Platforms Scraped</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">80%</span>
+              <span class="stat-label">API Call Reduction</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card-visual">
+          <div class="profile-card glass">
+            <div class="profile-avatar">AR</div>
+            <h3>Aditya Raj</h3>
+            <p class="profile-role">Data &amp; AI Engineer</p>
+            <div class="profile-tags">
+              <span class="tag">LLMs</span>
+              <span class="tag">RAG</span>
+              <span class="tag">Python</span>
+              <span class="tag">Data Pipelines</span>
+              <span class="tag">FAISS</span>
+              <span class="tag">LangChain</span>
+            </div>
+            <div class="profile-divider"></div>
+            <div class="profile-location">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Ranchi, India
+            </div>
+            <div class="profile-phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.61 3.38 2 2 0 013.6 1.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l.95-.95a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+              </svg>
+              +91 9205525923
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-label">TECH STACK</div>
+      <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🧠</div>
+            <h3>AI / ML</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-ai">LLMs</span>
+            <span class="pill pill-ai">LangChain</span>
+            <span class="pill pill-ai">RAG</span>
+            <span class="pill pill-ai">FAISS</span>
+            <span class="pill pill-ai">ChromaDB</span>
+            <span class="pill pill-ai">OpenAI API</span>
+            <span class="pill pill-ai">Gemini AI</span>
+            <span class="pill pill-ai">Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">💻</div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-lang">Python</span>
+            <span class="pill pill-lang">SQL</span>
+            <span class="pill pill-lang">JavaScript</span>
+            <span class="pill pill-lang">C++</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">📊</div>
+            <h3>Data Engineering</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-data">NumPy</span>
+            <span class="pill pill-data">Pandas</span>
+            <span class="pill pill-data">Data Analysis</span>
+            <span class="pill pill-data">Feature Engineering</span>
+            <span class="pill pill-data">Playwright</span>
+            <span class="pill pill-data">Selenium</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🚀</div>
+            <h3>Frameworks &amp; APIs</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-fw">Flask</span>
+            <span class="pill pill-fw">Streamlit</span>
+            <span class="pill pill-fw">ReactJS</span>
+            <span class="pill pill-fw">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🗄️</div>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-db">MySQL</span>
+            <span class="pill pill-db">PostgreSQL</span>
+            <span class="pill pill-db">Supabase</span>
+            <span class="pill pill-db">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">⚙️</div>
+            <h3>DevOps &amp; Tools</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-ops">Git</span>
+            <span class="pill pill-ops">GitHub</span>
+            <span class="pill pill-ops">GitHub Actions</span>
+            <span class="pill pill-ops">Jenkins</span>
+            <span class="pill pill-ops">Linux</span>
+            <span class="pill pill-ops">CI/CD</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-label">WORK HISTORY</div>
+      <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+      <div class="timeline">
+
+        <!-- Trader House -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Data & AI Engineer</h3>
+                <p class="timeline-company">Trader House</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge current">Current</span>
+                <span class="timeline-date">Jul 2025 – Present</span>
+                <span class="timeline-type">Remote</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Engineered a scalable, cross-platform web scraping pipeline using <strong>Python, Playwright, and
+                  Selenium</strong>, enabling automated extraction from Twitter, Instagram, TikTok, Facebook, LinkedIn,
+                and YouTube.</li>
+              <li>Applied <strong>RAG-based architecture</strong> to retrieve domain-specific posts (health, finance,
+                fashion) from local vector stores (FAISS/ChromaDB) and dynamically summarize using LLMs.</li>
+              <li>Supported use cases including influencer analytics and market research at scale.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>Playwright</span><span>Selenium</span><span>RAG</span><span>FAISS</span><span>LLMs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Infosys -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Python Developer Intern</h3>
+                <p class="timeline-company">Infosys Springboard</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">Feb 2025 – Mar 2025</span>
+                <span class="timeline-type">Remote</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Designed and deployed an AI-powered <strong>Doctor's Appointment Chatbot</strong> using Python,
+                Streamlit, and LangChain to automate booking and symptom-based doctor recommendations.</li>
+              <li>Implemented <strong>LLM-based intent classification</strong> to understand patient queries and route
+                to appropriate medical specialties.</li>
+              <li>Built automated <strong>SMTP email workflows</strong> for confirmations and reminders.</li>
+              <li>Deployed on <strong>Streamlit Cloud</strong> with modular, production-ready architecture.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>Streamlit</span><span>LangChain</span><span>LLMs</span><span>SMTP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- KGE Technologies -->
+        <div class="timeline-item" data-animate>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">UI Developer Intern</h3>
+                <p class="timeline-company">KGE Technologies</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">Aug 2023 – Sep 2023</span>
+                <span class="timeline-type">Remote</span>
+              </div>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Led deployment of responsive web design for <strong>'Zen Store'</strong>, improving mobile user
+                satisfaction by <strong>30%</strong>.</li>
+              <li>Developed a full-stack web dashboard using <strong>React and Node.js</strong> to monitor system health
+                in real-time.</li>
+              <li>Built real-time monitoring dashboard with <strong>CI/CD pipeline</strong> using GitHub Actions and
+                Jenkins.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>React</span><span>Node.js</span><span>CI/CD</span><span>GitHub Actions</span><span>Jenkins</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-label">PORTFOLIO</div>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      <div class="projects-grid">
+
+        <!-- TrendScraper -->
+        <div class="project-card glass featured" data-animate>
+          <div class="project-featured-badge">⭐ Featured</div>
+          <div class="project-header">
+            <div class="project-icon">📈</div>
+            <div class="project-links">
+              <a href="https://www.trendscraper.in/" target="_blank" rel="noopener" class="project-link-btn"
+                id="trendscraper-live">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Site
+              </a>
+            </div>
+          </div>
+          <h3>TrendScraper</h3>
+          <p class="project-url">trendscraper.in</p>
+          <p class="project-desc">
+            Full-stack React application with Supabase backend that tracks and analyzes social media trends across
+            Facebook, Twitter, Instagram, TikTok, YouTube and LinkedIn. Processes real-time engagement metrics and trend
+            velocity data.
+          </p>
+          <ul class="project-highlights">
+            <li>Custom caching layer with TTL expiration — reduced API calls by <strong>80%</strong></li>
+            <li>Real-time engagement metrics &amp; trend velocity analytics</li>
+            <li>Multi-platform: 6 major social networks covered</li>
+          </ul>
+          <div class="project-tags">
+            <span>React</span><span>Supabase</span><span>PostgreSQL</span><span>REST API</span><span>Caching</span>
+          </div>
+        </div>
+
+        <!-- Doctor's Chatbot -->
+        <div class="project-card glass featured" data-animate>
+          <div class="project-featured-badge">⭐ Featured</div>
+          <div class="project-header">
+            <div class="project-icon">🏥</div>
+            <div class="project-links">
+              <a href="https://medicalassistant-atmg3qb4ui4nmms4ewpn7t.streamlit.app/" target="_blank" rel="noopener"
+                class="project-link-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live App
+              </a>
+            </div>
+          </div>
+          <h3>Doctor's Appointment Chatbot</h3>
+          <p class="project-desc">
+            Full-stack automated medical assistant using Python and Streamlit. Users can book, reschedule, and cancel
+            appointments via text or voice with seamless AI-powered experience.
+          </p>
+          <ul class="project-highlights">
+            <li><strong>Google Gemini AI</strong> analyzes symptoms and recommends doctors</li>
+            <li>Voice Assistant via gTTS &amp; Speech Recognition</li>
+            <li><strong>Supabase PostgreSQL</strong> backend with Gmail SMTP integration</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>Streamlit</span><span>Gemini AI</span><span>Supabase</span><span>gTTS</span>
+          </div>
+        </div>
+
+        <!-- BioPharma AI -->
+        <div class="project-card glass featured" data-animate>
+          <div class="project-featured-badge">⭐ Featured</div>
+          <div class="project-header">
+            <div class="project-icon">🧬</div>
+          </div>
+          <h3>BioPharma AI</h3>
+          <p class="project-desc">
+            Advanced AI-powered healthcare assistant designed to provide real-time, streaming medical insights and
+            consultations using OpenRouter API.
+          </p>
+          <ul class="project-highlights">
+            <li>Integrated <strong>OpenRouter API</strong> for multi-model AI responses</li>
+            <li>Real-time <strong>streaming chat</strong> with EventStream architecture</li>
+            <li><strong>Supabase</strong> integration for secure healthcare data management</li>
+          </ul>
+          <div class="project-tags">
+            <span>Next.js</span><span>Supabase</span><span>Framer Motion</span><span>OpenRouter</span>
+          </div>
+        </div>
+
+        <!-- Virtual Assistant -->
+        <div class="project-card glass" data-animate>
+          <div class="project-header">
+            <div class="project-icon">🎙️</div>
+          </div>
+          <h3>Virtual Personal Assistant</h3>
+          <p class="project-desc">
+            Voice-enabled personal assistant using Python and NLP to perform web browsing, system commands, and basic
+            automation tasks.
+          </p>
+          <ul class="project-highlights">
+            <li>Speech recognition &amp; intent processing</li>
+            <li>Accurate voice command execution</li>
+            <li>Web browsing &amp; system automation</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>NLP</span><span>Speech Recognition</span><span>Automation</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-label">BACKGROUND</div>
+      <h2 class="section-title">Education &amp; <span class="gradient-text">Certifications</span></h2>
+      <div class="edu-grid">
+
+        <div class="edu-card glass" data-animate>
+          <div class="edu-icon">🎓</div>
+          <div class="edu-content">
+            <h3>B.Tech in Information Technology</h3>
+            <p class="edu-institution">Rustamji Institute of Technology</p>
+            <p class="edu-year">2021 – 2025</p>
+            <div class="edu-cgpa">
+              <span class="cgpa-label">CGPA</span>
+              <span class="cgpa-value">7.38 / 10</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="certs-grid">
+          <a href="https://drive.google.com/file/d/1467M9q8cY4wnV05EJWkJR6iFIeu5M9M0/view" target="_blank"
+            rel="noopener" class="cert-card glass" id="cert-iit" data-animate>
+            <div class="cert-icon">🏛️</div>
+            <div class="cert-content">
+              <h4>Artificial Intelligence</h4>
+              <p>FITT IIT Delhi</p>
+              <span class="cert-link-text">View Certificate →</span>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1pSoXEHzCld1X6U_cdpQupqqHr4zvlEhq/view" target="_blank"
+            rel="noopener" class="cert-card glass" id="cert-infosys" data-animate>
+            <div class="cert-icon">💼</div>
+            <div class="cert-content">
+              <h4>Internship Completion</h4>
+              <p>Infosys Springboard</p>
+              <span class="cert-link-text">View Certificate →</span>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1FWx2ahcdbyE6vigDmwnouvXNacvx7x-e/view" target="_blank"
+            rel="noopener" class="cert-card glass" id="cert-kge" data-animate>
+            <div class="cert-icon">🌐</div>
+            <div class="cert-content">
+              <h4>Internship Completion</h4>
+              <p>KGE Technologies</p>
+              <span class="cert-link-text">View Certificate →</span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-label">GET IN TOUCH</div>
+      <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+      <p class="contact-subtitle">Open to full-time roles, freelance projects, and collaborations in AI, Data
+        Engineering, and Full-Stack Development.</p>
+      <div class="contact-grid">
+        <a href="mailto:rajnisharti29@gmail.com" class="contact-card glass" id="contact-email">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+          <h3>Email</h3>
+          <p>rajnisharti29@gmail.com</p>
+        </a>
+        <a href="tel:+919205525923" class="contact-card glass" id="contact-phone">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.61 3.38 2 2 0 013.6 1.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l.95-.95a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+            </svg>
+          </div>
+          <h3>Phone</h3>
+          <p>+91 9205525923</p>
+        </a>
+        <a href="https://www.linkedin.com/in/aditya-raj-3b0169235/" target="_blank" rel="noopener"
+          class="contact-card glass" id="contact-linkedin">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </div>
+          <h3>LinkedIn</h3>
+          <p>Connect with me</p>
+        </a>
+        <a href="https://github.com/Aditya0611" target="_blank" rel="noopener" class="contact-card glass"
+          id="contact-github">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+            </svg>
+          </div>
+          <h3>GitHub</h3>
+          <p>View my repositories</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">AR</span>
+        <p class="footer-copy">© 2025 Aditya Raj. Built with passion for great design &amp; clean code.</p>
+        <div class="footer-links">
+          <a href="#hero">Top</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
